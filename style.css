@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
+
+* { margin:0; padding:0 }
+
+html, body {
+    height: 100%;
+}
+
+html {
+    font: 100%/1.4 Roboto, Arial, sans-serif;
+}
+
+body {
+    font-size: inherit;
+    background: url('bandstand.png') right bottom no-repeat;
+    background-size: contain;
+    padding: 3rem;
+    box-sizing: border-box;
+}
+
+a {
+    color: hsl(0, 100%, 28%);
+}
+a:hover {
+    color: hsl(20, 100%, 38%);
+}
+
+header {
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 4rem;
+    line-height: 1;
+    color: hsl(0, 100%, 28%);
+    padding-bottom: .5rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid hsl(0, 0%, 80%);
+}
+
+header h1 span {
+    color: hsl(0, 0%, 80%);
+}
+
+header h1 ~ * + * {
+    display: inline-block;
+}
+
+
+ul {
+    display: inline-block;
+    font-weight: 500;
+    background: hsla(0, 0%, 100%, 0.8);
+    box-shadow: 0 0 2rem 0 white;
+    list-style: none;
+    line-height: 2.3;
+}
+
+li::before {
+    content: '■';
+    font-size: .7rem;
+    color: hsl(0, 100%, 28%);
+    margin-right: .5rem;
+    display: inline-block;
+    vertical-align: 0.2rem;
+}
+
+li ul {
+    display: block;
+    margin-left: 2rem;
+}

@@ -1,2 +1,3 @@
-# PeggyArchitect.github.io
-Eventual http://www.peggydallas.com
+# peggydallas.com
+
+Website for Peggy Dallas Architect.
