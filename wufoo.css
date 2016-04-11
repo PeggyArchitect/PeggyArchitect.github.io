@@ -15,7 +15,7 @@ body, body .wufoo { font-family:Roboto,Arial,sans-serif; font-size: 100%; }
 #saveForm:active { background:hsl(0, 100%, 28%) }
 
 #Field1, #Field8, #Field14 { padding:6px; box-sizing:border-box; color:#222; font-size:18px; font-family:inherit;
-	border:1px solid transparent; outline:none; background:#f1f1f1; width:100% }
+	border:1px solid transparent; outline:none; background:#f1f1f1; width:100%; max-width:22rem }
 #Field2 { padding:6px 8px; box-sizing:border-box; font-size:18px; line-height:1.2; width:100%; outline:none;
   border:1px solid transparent; background:#f1f1f1; font-family:inherit }
 #Field1:hover, #Field8:hover, #Field14:hover, #Field2:hover { background:#ebebeb }
