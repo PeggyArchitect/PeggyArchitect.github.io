@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
-html { background:#fff; font-family:Roboto, Arial, sans-serif }
+html { background:#fff }
+body, body .wufoo { font-family:Roboto, Arial, sans-serif }
 #container { box-shadow:none; border-radius:4px; border:none; margin:0; width:auto }
 
 #header.info h2, #title14, #title1, #title2, #saveForm { font-family:inherit; color:hsl(0, 100%, 28%) }
