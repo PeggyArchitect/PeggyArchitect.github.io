@@ -28,7 +28,7 @@ body, body .wufoo { font-family:Roboto,Arial,sans-serif; font-size: 100%; }
 form.wufoo a.power { box-shadow:none; border-radius:0; background:white; border:none; padding:0; margin:0 }
 
 a.powertiny::after { content:'Powered by Wufoo'; display:block; position:absolute; width:150%;
-  height:70px; background:#fff; top:-10px; left:-16px; color:#ccc; font-family:inherit }
+  height:70px; background:#fff; top:-10px; left:-16px; color:#ccc; font-family:inherit; font-size:small }
 
 .confirm form.wufoo h2 { font-family:inherit; }
 
