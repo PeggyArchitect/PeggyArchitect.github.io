@@ -26,5 +26,8 @@ form.wufoo a.power { box-shadow:none; border-radius:0; background:white; border:
 
 a.powertiny::after { content:'Powered by Wufoo'; display:block; position:absolute; width:130px;
   height:70px; background:#fff; top:-10px; left:-16px; color:#ccc; font-family:'Open Sans', sans-serif }
-  
+
 .confirm form.wufoo h2 { font-family:'Open Sans', sans-serif }
+
+/* hide the report abuse button */
+li.buttons > div { width:200px; white-space:nowrap; overflow:hidden }
