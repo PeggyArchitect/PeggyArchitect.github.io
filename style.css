@@ -54,7 +54,7 @@ header h1 {
     color: hsl(0, 100%, 28%);
     padding-bottom: 1.4rem;
     margin-bottom: 1rem;
-    border-bottom: 1px solid hsl(0, 0%, 60%);
+    border-bottom: 1px solid hsl(0, 0%, 80%);
 }
 @media (max-width: 400px) {
     header h1 {
