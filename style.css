@@ -23,11 +23,18 @@ html {
 
 body {
     font-size: inherit;
-    background: url('bandstand_large.png') no-repeat;
+    background: url('bandstand_light.png') no-repeat;
     background-position: 390px bottom;
     background-size: contain;
     box-sizing: border-box;
     padding: 3rem;
+    max-width: 100rem;
+    margin: auto;
+}
+@media (max-height: 800px) {
+    body {
+        background: none;
+    }
 }
 
 a {
